@@ -1,0 +1,6 @@
+# Fichiers contenant des informations sensibles
+init.php
+sftp.json
+
+# Configuration locale VS Code
+.vscode/
