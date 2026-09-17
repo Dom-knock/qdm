@@ -29,7 +29,7 @@ initSession();
 global $bdd;
 
 // Ouvre la connexion a la base de donnees.
-$bdd = new PDO("mysql:host=172.18.0.1;dbname=qdm-dominique;charset=UTF8", "qdm-dominique", "V=52bpjrg");
+$bdd = new PDO("");
 
 // Configure PDO pour afficher les erreurs SQL pendant la mise au point.
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
